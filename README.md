@@ -18,3 +18,6 @@
 > 테라폼 코드를 추가한다(Add Terraform code) <br>
 > 테라폼 코드를 삭제한다(Delete terraform code) <br>
 > 테라폼 코드를 변경한다(Change terraform code) <br>
+> 테라폼 주석을 추가한다(Add terraform annotations) <br>
+> 테라폼 주석을 수정한다(Fix terraform comments) <br>
+> 테라폼 주석을 삭제한다(Delete terraform comments) <br>
