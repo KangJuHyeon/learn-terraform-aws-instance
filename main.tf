@@ -38,20 +38,3 @@ output "public_ip" {
   value       = aws_instance.example.public_ip
   description = "The public IP address of the Web"
 }
-
-
-# [root@ip-172-31-87-79 ~]# cat /usr/lib/systemd/system/http.service 
-# [Unit]
-# Description=Python Httpd Service
-
-
-# [Service]
-# Type=simple
-# RemainAfterExit=yes
-# ExecStart=/usr/bin/python3 -m http.server 8080
-# ExecStop=killall -9 python3
-
-# [Install]
-# WantedBy=multi-user.target
-# [root@ip-172-31-87-79 ~]# uptime
-#  09:44:12 up 17 min,  1 user,  load average: 0.00, 0.00, 0.00
