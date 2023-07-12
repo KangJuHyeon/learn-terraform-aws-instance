@@ -11,3 +11,10 @@
 5. 제목은 명령조로
 6. 본문은 영문 기준 72자마다 줄 바꾸기
 7. 본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기
+
+# 코드 작성 예시
+> 코드를 추가한다(Add code)
+> 코드를 수정한다(Edit the code)
+> 테라폼 코드를 추가한다(Add Terraform code)
+> 테라폼 코드를 삭제한다(Delete terraform code)
+> 테라폼 코드를 변경한다(Change terraform code)
