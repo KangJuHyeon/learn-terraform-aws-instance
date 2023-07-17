@@ -3,15 +3,15 @@ provider "aws" {
 }
 
 # resource "aws_instance" "example" {
-#   ami                    = "ami-06ca3ca175f37dd66"
+#   ami                    = "ami-06ca3ca175f37dd66" # 이미지
 #   instance_type          = "t2.micro"
 #   vpc_security_group_ids = ["${aws_security_group.instance.id}"]
 
 #   user_data = <<-EOF
-#               #!/bin/bash
-#               echo "Hello, World" > index.html
-#               nohup /usr/bin/python3 -m http.server "${var.server_port}" &
-#               EOF
+# #!/bin/bash
+# echo "Hello, World" > index.html
+# nohup /usr/bin/python3 -m http.server "${var.server_port}" &
+# EOF
 
 #   tags = {
 #     Name = "terraform-example"
